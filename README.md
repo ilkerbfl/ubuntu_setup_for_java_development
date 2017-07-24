@@ -21,3 +21,21 @@ Java will be located at , setup SDK from this folder :/usr/lib/jvm/java-8-oracle
 - sudo apt-get install nodejs
 - sudo apt-get install npm
 - sudo npm install bower -g
+9. Jhipster prerequistes
+- sudo apt install curl
+- cd ~
+- curl -sL https://deb.nodesource.com/setup_6.x -o nodesource_setup.sh
+- sudo bash nodesource_setup.sh
+- sudo apt-get install nodejs
+- sudo apt-get install build-essential
+- install jarn
+- curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+- echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+- sudo apt-get update && sudo apt-get install yarn
+- install yeoman
+- sudo yarn global add yo
+- install gulp
+- sudo yarn global add gulp-cli
+- install jhipster
+- sudo yarn global add generator-jhipster
+
