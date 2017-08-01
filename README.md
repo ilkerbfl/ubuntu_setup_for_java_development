@@ -38,4 +38,8 @@ Java will be located at , setup SDK from this folder :/usr/lib/jvm/java-8-oracle
 - sudo yarn global add gulp-cli
 - install jhipster
 - sudo yarn global add generator-jhipster
+10. install atom
+- sudo add-apt-repository ppa:webupd8team/atom
+- sudo apt update
+- sudo apt install atom
 
